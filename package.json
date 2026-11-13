@@ -1,0 +1,19 @@
+{
+  "name": "eva-01-vpn",
+  "version": "1.0.0",
+  "description": "Tactical VPN Client based on Node.js and Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^43.1.0"
+  },
+  "dependencies": {
+    "tuntap2": "^0.9.1"
+  }
+}
