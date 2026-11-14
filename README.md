@@ -1,24 +1,26 @@
 # Eva-01 VPN
 
-Тактический VPN-клиент и сервер на базе **Node.js**, **Electron** и **TUN/TAP (`tuntap2`)** с кастомным шифрованием трафика и графическим интерфейсом в стилистике NERV / Evangelion.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- 🛡️ **Работа на уровне сетевого интерфейса (`tuntap2`)** — создание виртуального TUN/TAP-адаптера и маршрутизация IP-пакетов.
-- 🔐 **Шифрование пакетов (`crypto-helper.js`)** — симметричное шифрование передаваемых данных между клиентом (`client.js`) и сервером (`server.js`).
-- 🖥️ **Десктопный интерфейс на Electron (`main.js`, `index.html`)** — панель управления туннелем и мониторинг состояния соединения.
+A tactical VPN client and server built with **Node.js**, **Electron**, and **TUN/TAP (`tuntap2`)**, featuring custom packet encryption and a NERV / Evangelion-inspired desktop interface.
 
-## 🚀 Установка и запуск
+## ✨ Features
+- 🛡️ **Network-Layer Tunneling (`tuntap2`)** — creates a virtual TUN/TAP network interface and routes raw IP packets.
+- 🔐 **Packet Encryption (`crypto-helper.js`)** — symmetric encryption of payload traffic between client (`client.js`) and server (`server.js`).
+- 🖥️ **Electron Desktop GUI (`main.js`, `index.html`)** — tactical control panel for tunnel management and live connection status monitoring.
+
+## 🚀 Installation & Usage
 
 ```bash
 npm install
 ```
 
-### Запуск сервера
+### Run the Server
 ```bash
 sudo node server.js
 ```
 
-### Запуск Electron-клиента
+### Run the Electron Client
 ```bash
 npm start
 ```
