@@ -24,3 +24,6 @@ sudo node server.js
 ```bash
 npm start
 ```
+
+## 📄 License
+MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
